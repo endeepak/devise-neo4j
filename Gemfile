@@ -6,8 +6,8 @@ group :neo4j do
   gem "oa-oauth", "~> 0.2.0", :require => "omniauth/oauth"
   gem "oa-openid", "~> 0.2.0", :require => "omniauth/openid"
 
-  gem "devise", "1.3.4"  
-  gem "neo4j", "~> 1.1.1"
+  gem "devise", ">= 1.3.4"
+  gem "neo4j", ">= 1.1.1"
 end
 
 group :test do
